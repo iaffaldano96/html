@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 20-gen-2017, 10.06.25
+    Author     : tss
+*/
+
+/* nth-child(2) pari   nth-child(2+1) dispari*/
+.mese{border-spacing: 2px;}
+#trimestre{text-align: center}
+Table#trimestre  td{border: solid dodgerblue;
+                    vertical-align: top;}
+
+#vacan{background-color: white}
+
+.mese td:nth-child(7){background-color: hotpink }
+.mese td:nth-child(6){background-color:hotpink}
+
+.mese tr:nth-child(1) td:nth-child(6) {background-color: white}
+.mese tr:nth-child(1) td:nth-child(7) {background-color: white}
+
+.mese tr:last-child td:nth-child(6) {background-color: white}
+.mese tr:last-child td:last-child{background-color: white}
